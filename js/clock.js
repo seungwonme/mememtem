@@ -9,7 +9,7 @@ function getClock() {
     if (`${minutes}`.length === 1) {
         minutes = "0" + now.getMinutes()
     } */
-    clock.innerText = `${hours}:${minutes}:${seconds}`
+    clock.innerText = `${hours}:${minutes}`
 }
 getClock()
 // setInverval 로는 ms 뒤에 실행 후 반복이기 때문에 로드되고 바로 실행되게끔
